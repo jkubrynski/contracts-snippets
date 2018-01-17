@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        systemEvents_out:
+          destination: systemEvents
+        systemEvents_in:
+          destination: systemEvents
